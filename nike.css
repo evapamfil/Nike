@@ -1,0 +1,375 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    border: 50px solid #c8cfdc;
+    border-bottom: none;
+    font-family: roboto, sans-serif;
+}
+
+#div1 {
+    height: 701px;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    width: ;100%  
+}
+
+#div1 #logo {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+#div1 #menu{
+    float: left;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 10px;  
+}
+
+#menu a{
+    margin-left: 30px;  
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid #0089cf;
+    padding-bottom: 30px;
+    color: #0089cf; 
+}
+
+#div1 #search{
+    float: right;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#search ul li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 20px;  
+}
+
+#search .item{
+    position: absolute;
+    top: 85px;
+    margin-left: -25px; 
+}
+
+#search span{
+    color: #1191d2;
+}
+
+#image img{
+    position: absolute;
+    left: 160px;
+    top: 300px;
+}
+
+#divheart{
+    width: 50px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #e4e4e4;
+    position: absolute;
+    top: 200px;
+    left: 850px;
+}
+
+#heart {
+      position: relative;
+      top : 50%;           /* la moitié de la hauteur du bloc qui la contient  */
+      left : 50%;          /* la moitié de la largeur du bloc qui la contient  */
+      margin-top : -7px;  /* la moitié de la hauteur de l'image  */
+      margin-left : -8px; /* la moitié de la largeur de l'image  */
+      display : block;
+      width : 16px;
+      height : 14px;
+}
+
+#airmax{
+    position: absolute;
+    top: 280px;
+    left: 850px;
+}
+
+#airmax ul {
+    list-style-type: none;
+}
+
+#airmax #ul1 li{
+    margin-top: 10px;
+}
+
+#airmax h2{
+    font-size: 18px;
+}
+
+#airmax h1{
+    font-size: 24px;
+}
+
+#airmax span {
+    color: #666666;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#airmax #blue{
+    color: #44a8dc;
+}
+
+#airmax ul img{
+    width: 80px;
+    height: 80px;
+}
+
+#airmax #grey{
+    color: #a3a3a3;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#ul2{
+    margin-top: 20px;
+}
+
+#ul2 li{
+    margin-top: 10px;
+}
+
+.selectsize{
+    background-color: #ffffff;
+    border: solid 2px;
+    border-color: #e4e4e4;
+    font-weight: bold;
+    font-size:11px;
+    padding:15px 20px 15px 10px;
+    width: 120px;
+}
+
+.addtocart{
+    background-color: #333333;
+    padding:15px 15px 15px 15px;
+	font-weight: bold;
+    font-size:11px;
+	color: white;
+    width: 120px;
+    border: solid 2px ;
+    border-color: #333333;
+    margin-left: 10px; 
+}
+
+#div2{
+    height: 660px;
+    width: 100%;
+    color: white;
+    background-image: url(image/Layer%202.png);
+    margin-top: 0px; 
+}
+
+#div2 h2, p{
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 250px;
+}
+
+#div2 p{
+    padding-top: 300px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+#div2 h2{
+    font-size: 18px;
+}
+
+#div3{
+    width: 100%;
+    height: 662px;
+    background-color: #f5f5f5;
+}
+
+#div3 img{
+    position: absolute;
+    left: 350px;
+    margin-top: 60px;
+}
+
+#story h2,h3, p{
+    position: absolute;
+    padding-left: 50px;
+}  
+
+#story h3{
+    padding-top: 90px;
+    font-size: 11px;
+    color: #8c8c8c;
+}
+
+#story h2{
+    padding-top: 110px;
+    font-size: 18px;
+}
+
+#story p {
+    padding-top: 150px;
+    color: #949494;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+#benefits h3, p{
+    position:absolute;
+    padding-left: 50px; 
+} 
+
+#benefits h3{
+    top: 1720px;
+    font-size: 11px;
+    color: #8c8c8c;
+}
+
+#benefits p{
+    top: 1500px;
+    color: #8c8c8c;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#benefits span {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;  
+}
+
+#nike{
+    width: 300px;
+    height: 430px;
+    background-color: #ffffff;
+    border: solid 5px #e4e4e4;
+    position: absolute;
+    top: 840px;
+    right: 90px;
+    float: right;
+    z-index: 2;  
+}
+
+#nike #shoes {
+    position: relative;
+    left: 0px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#nike h1{
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#nike h2{
+    font-size: 12px;
+    font-weight: normal;
+    color: #8f8f8f;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#nike span{
+    font-size: 12px;
+    color: #0089cf;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#nike #stock{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px; 
+}
+
+#nike #price{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#nike .selectsize{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#nike .addtocart{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#div4{
+    height: 630px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+#div4 h3{
+    position: inherit;
+    font-size: 11px;
+    font-weight: bold;
+    color: #8f8f8f;
+    margin-top: 110px;
+    padding-left: 0px;
+}
+
+#div4 h2 {
+    font-size: 18px;
+    margin-top: 5px; 
+}
+
+/*SWIPER*/
+
+.swiper-container {
+    width: 100%;
+    padding-top: 40px; 
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+        
+/* Center slide text vertically */
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 250px;
+}
